@@ -7,8 +7,10 @@
 
             return {usStats};
         } catch(e) {
-
+            this.error(500, "There was an error calling this api, please try again later.");
+            return;
         }
+
     }
 </script>
 
