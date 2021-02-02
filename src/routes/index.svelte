@@ -41,7 +41,7 @@
 
 <CovidChart historicData={historic} title="Covid-19" />
 
-<TableContainer />
+<TableContainer data={statesData} />
 	
 
 
